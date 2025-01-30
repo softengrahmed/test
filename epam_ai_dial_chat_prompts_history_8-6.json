@@ -1,0 +1,14 @@
+{
+  "prompts": [
+    {
+      "id": "prompts/6YtLdARHAkY7XFG83UnSzNJnmBL8V73inWr9cZMbVpoAdccdXmaYQX7nY261qiNRZY/GenAI-EngX Course Practices",
+      "name": "GenAI-EngX Course Practices",
+      "folderId": "prompts/6YtLdARHAkY7XFG83UnSzNJnmBL8V73inWr9cZMbVpoAdccdXmaYQX7nY261qiNRZY",
+      "description": "",
+      "content": "I'm about to start working on a development task. The task involves adding a \"suggests relevant hashtags based on the content of a user's post\" feature to a social media application. \nCurrently, users don’t get any hashtags suggestions after they did a post. Before I begin implementation, I want to ensure I understand the task and its requirements.",
+      "lastActivityDate": 1712591722990,
+      "status": "LOADED"
+    }
+  ],
+  "folders": []
+}
