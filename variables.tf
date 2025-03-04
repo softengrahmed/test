@@ -1,0 +1,1 @@
+variable \\\"region\\\" {\\n  description = \\\"The AWS region to deploy resources\\\"\\n  default     = \\\"us-east-1\\\"\\n}\\n\\nvariable \\\"instance_type\\\" {\\n  description = \\\"Type of instance to be used\\\"\\n  default     = \\\"t2.micro\\\"\\n}\\n
