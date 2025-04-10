@@ -1,0 +1,1 @@
+# Terraform AWS Infrastructure\n\nThis repository contains Terraform code to provision AWS infrastructure based on the architecture specified in the following diagram:\n![Architecture Diagram](https://miro.medium.com/v2/resize:fit:1400/1*m0GmprNvQHe5CvgOI0T8JQ.png)\n\n## Components\nThe following components are created by this Terraform configuration:\n1. VPC
