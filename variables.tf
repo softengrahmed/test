@@ -1,0 +1,1 @@
+variable \"region\" {\n  description = \"The region to deploy resources\"\n  default     = \"us-central1\"\n}\n\nvariable \"subnet_cidr_ranges\" {\n  description = \"CIDR ranges for the subnets\"\n  type        = list(string)\n  default     = [\"10.0.0.0/24\", \"10.0.1.0/24\", \"10.0.2.0/24\"]\n}\n
