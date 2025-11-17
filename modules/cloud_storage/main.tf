@@ -1,0 +1,1 @@
+resource \\\"google_storage_bucket\\\" \\\"default\\\" {\\n  name     = \\\"my-storage-bucket\\\"\\n  location = \\\"US\\\"\\n}\\n\\noutput \\\"bucket_names\\\" {\\n  value = google_storage_bucket.default.name\\\n}\\n
