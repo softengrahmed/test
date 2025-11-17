@@ -1,0 +1,1 @@
+variable \\\"project_id\\\" {\\n  description = \\\"The project ID to deploy resources\\\"\\n  type        = string\\n}\\n\\nvariable \\\"network_name\\\" {\\n  description = \\\"The name of the VPC network\\\"\\n  type        = string\\n}\\n
