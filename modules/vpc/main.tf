@@ -1,0 +1,1 @@
+resource \"google_compute_network\" \"vpc_network\" {\n  name                    = var.network_name\n  auto_create_subnetworks = false\n}\n\noutput \"network_name\" {\n  value = google_compute_network.vpc_network.name\n}\n
