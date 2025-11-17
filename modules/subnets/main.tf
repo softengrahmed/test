@@ -1,0 +1,1 @@
+resource \"google_compute_subnetwork\" \"subnet\" {\n  count = length(var.regions)\n  name          = \"${
