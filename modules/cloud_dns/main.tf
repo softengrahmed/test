@@ -1,0 +1,1 @@
+resource \\\"google_dns_managed_zone\\\" \\\"default\\\" {\\n  name     = \\\"my-dns-zone\\\"\\n  dns_name = \\\"example.com.\\\"\\n}\\n\\noutput \\\"zone_names\\\" {\\n  value = google_dns_managed_zone.default.name\\\n}\\n
