@@ -1,0 +1,1 @@
+resource \"google_compute_router\" \"router\" {\n  count = length(var.regions)\n  name    = \"${var.network_name}-router-${var.regions[count.index]}\"\n  network = var.network_name\n  region  = var.regions[count.index]\n}\n\noutput \"router_names\" {\n  value = google_compute_router.router[*].name\n}\n
