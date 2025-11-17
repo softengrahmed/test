@@ -1,0 +1,1 @@
+variable \\\"project_id\\\" {\\n  description = \\\"The project ID to deploy resources\\\"\\n  type        = string\\n}\\n
