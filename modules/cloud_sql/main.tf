@@ -1,0 +1,1 @@
+resource \\\"google_sql_database_instance\\\" \\\"default\\\" {\\n  name = \\\"sql-instance\\\"\\n  database_version = \\\"MYSQL_5_7\\\"\\n  settings {\\n    tier = \\\"db-f1-micro\\\"\\n  }\\n}\\n\\noutput \\\"instance_names\\\" {\\n  value = google_sql_database_instance.default.name\\n}\\n
