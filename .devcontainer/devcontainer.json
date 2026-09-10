@@ -1,0 +1,18 @@
+{
+  "name": "gcp-terraform-sandbox",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/terraform:1": { "version": "latest" },
+    "ghcr.io/dhoeric/features/google-cloud-cli:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "terraform -version && gcloud --version && pip install checkov",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "googlecloudtools.cloudcode"
+      ]
+    }
+  }
+}
